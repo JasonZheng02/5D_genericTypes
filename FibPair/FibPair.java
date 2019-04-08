@@ -34,7 +34,7 @@ public class FibPair {
                                 , String expect
                                 ) {
 
-        new Pair<int>(bigger,smaller);
+        new Pair<Integer>(bigger,smaller);
 
         System.out.println(
             "The pair after ["
@@ -53,35 +53,35 @@ public class FibPair {
         the big number is the sum of the given pair
         the small number is the the old big number
      */
-    private static ?? nextPairAfter( ??) {
-        return ?? the next pair;
+    private static String nextPairAfter( int bigger, int smaller) {
+        return "[" + (bigger + smaller) + "," + bigger + "]";
     }
 
 
-    /**
-      test fib()
-      optional extra education
-     */
-    private static void oneFib( int n
-                              , int expect
-                              ) {
-        System.out.println(
-            "Fib " + n + ": "
-          + fib( n)
-          + " ...expecting " + expect
-          + System.lineSeparator());
-     }
+    // /**
+      // test fib()
+      // optional extra education
+     // */
+    // private static void oneFib( int n
+                              // , int expect
+                              // ) {
+        // System.out.println(
+            // "Fib " + n + ": "
+          // + fib( n)
+          // + " ...expecting " + expect
+          // + System.lineSeparator());
+     // }
 
 
-    /**
-      Calculate a Fibonacci number recursively
-      and in linear time.
-      optional extra education
+    // /**
+      // Calculate a Fibonacci number recursively
+      // and in linear time.
+      // optional extra education
       
-      @return the nth Fibonacci number
-              n >= 0
-     */
-    private static Integer fib( int n) {
-        return -2;
-    }
+      // @return the nth Fibonacci number
+              // n >= 0
+     // */
+    // private static Integer fib( int n) {
+        // return -2;
+    // }
 }
