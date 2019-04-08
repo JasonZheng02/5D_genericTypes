@@ -34,12 +34,12 @@ public class FibPair {
                                 , String expect
                                 ) {
 
-        // code here to make a pair from the params
+        new Pair<int>(bigger,smaller);
 
         System.out.println(
-            "The pair after "
-          // + ?? the pair you made
-          // + " is " + nextPairAfter( ?? the pair you made)
+            "The pair after ["
+          + bigger + "," + smaller + "]"
+          + " is " + nextPairAfter(bigger,smaller)
           + " ...expecting " + expect
           + System.lineSeparator());
      }
